@@ -1,0 +1,7 @@
+parameters:
+#    striide_widget.example.class: Striide\WidgetBundle\Example
+
+services:
+#    striide_widget.example:
+#        class: %striide_widget.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

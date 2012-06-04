@@ -1,0 +1,8 @@
+<span class="inline-loader" id="loader_{{ loader_id }}" {% if hidden is defined %}style="display: none;"{% endif %}>
+{% if loader_img is defined %}
+	<img src="{{ asset(loader_img) }}">
+{% endif %}
+{% if loader_message is defined %}
+	{{ loader_message|trans({},'widget') }}
+{% endif %}
+</span>
